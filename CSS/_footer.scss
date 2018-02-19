@@ -1,0 +1,51 @@
+.footer {
+    background-color: $footer-color;
+    padding: 3em;
+    margin: 3em 0 0 0;
+
+    ol {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        font-size: 1.2em;
+        padding-left: 0;
+
+        @media screen and (min-width: 768px) {
+            font-size: 1.3em;
+        }
+
+        @media screen and (min-width: 992px) {
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            font-size: 1.5em;
+        }
+
+        li {
+           padding: .3em;
+
+        }
+    }
+
+    p {
+        color: $font-color;
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 3em;
+        text-transform: capitalize;
+
+        @media screen and (min-width: 768px) {
+            font-size: 1.3em;
+        }
+
+        @media screen and (min-width: 992px) {
+            font-size: 1.5em;
+        }
+    }
+    
+}

@@ -1,0 +1,45 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: $text-font;
+    box-sizing: border-box;
+}
+
+.centered {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.give-space {
+    margin: 1.7em 0;
+}
+
+header {
+    position: relative
+}
+
+img {
+    width: 100%;
+}
+
+h3,h1 {
+    font-family: $header-font;
+    text-align: center;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    clear: both;
+}
